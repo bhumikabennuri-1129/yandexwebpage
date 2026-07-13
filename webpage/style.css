@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+    padding: 2rem;
+}
+
+header img{
+    height: 30px;
+    pointer-events: none;
+}
+
+.logo{
+    font-weight: 100;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e0371d;
+    text-shadow: 1px 1px rgb(233, 33, 26);
+}
+
+main ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.image{
+    margin-top: -200px;
+    min-width: 10px;
+    transform: scale(0.1);
+}
+
+image:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+main span{
+    font-size: 10rem;
+}
+
+.textbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    place-content: center;
+    align-items: center;
+    min-height: 100px;
+    margin: 0;
+    margin-top: -240px;
+}
+
+.textbox input{
+    min-height: 80px;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 1rem;
+}
+.section{
+    min-height: 50px;
+    border: 2px solid;
+}
+
+.img{
+    height: 30px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    min-width: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: Arial,sans-serif;
+    background: linear-gradient(135deg,#21243a,#47147a);
+    color: white;
+    align-items: center;
+}
+
+.card{
+    width: min(560px,90vw);
+    padding: 2rem;
+    border-radius: 20px;
+    font-size: 28pt;
+    font-family: Trebuchet 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background: rgba(78, 11, 0.12);
+    box-shadow: 0 20px 50px rgba(0,0,0,.3);
+}
+
+.card span{
+    color: #84ff08;
+}
